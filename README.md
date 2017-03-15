@@ -17,7 +17,7 @@ Requirements
 
 Installation
 -------------
-    cordova plugin add cordova-plugin-file-opener2
+    cordova plugin add https://github.com/Edc-zhang/cordova-plugin-file-opener2-android7.0
     
 Usage
 ------
