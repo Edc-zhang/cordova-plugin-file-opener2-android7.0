@@ -12,6 +12,7 @@
     <js-module src="www/plugins.FileOpener2.js" name="FileOpener2">
         <clobbers target="cordova.plugins.fileOpener2" />
     </js-module>
+	
 
     <!-- Android -->
     <platform name="android">
@@ -27,7 +28,7 @@
             <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
         </config-file>
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
-            <provider android:authorities="com.tdenergys.evopYangJing.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <provider android:authorities="com.xxxx.XXXXX.fileprovider" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
                 <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
             </provider>
         </config-file>
